@@ -1,0 +1,4 @@
+{
+  "presets": [["env", { "loose": true }], "react"],
+  "ignore": ["node_modules", "stories.js"]
+}

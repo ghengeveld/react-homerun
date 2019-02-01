@@ -8,6 +8,33 @@
   ],
   "author": "Gert Hengeveld <info@ghengeveld.nl>",
   "license": "ISC",
-  "main": "index.js",
-  "scripts": {}
+  "homepage": "https://github.com/ghengeveld/react-homerun",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ghengeveld/react-homerun.git"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "src"
+  ],
+  "scripts": {
+    "build": "rimraf lib && babel src -d lib --ignore '**/*spec.js'"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "react": ">=16.3.1"
+  },
+  "devDependencies": {
+    "babel-cli": "6.26.0",
+    "babel-preset-env": "1.7.0",
+    "babel-preset-react": "6.24.1",
+    "react": "16.7.0",
+    "react-dom": "16.7.0",
+    "react-testing-library": "5.4.4",
+    "rimraf": "2.6.3"
+  }
 }
