@@ -1,0 +1,13 @@
+{
+  "name": "react-homerun",
+  "version": "0.0.0",
+  "description": "Progressive Web Apps toolkit for React",
+  "keywords": [
+    "pwa",
+    "react"
+  ],
+  "author": "Gert Hengeveld <info@ghengeveld.nl>",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {}
+}
