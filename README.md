@@ -1,3 +1,3 @@
 # React Homerun
 
-Progressive Web Apps toolkit for React.
+Build awesome Progressive Web Apps in React.
